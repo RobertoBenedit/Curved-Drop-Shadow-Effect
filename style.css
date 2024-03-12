@@ -87,4 +87,34 @@ body {
 }
 /* Media queries max-width 490*/
 
+@media screen and (max-width: 490px) {
+	.card-container {
+		margin: 30px 25px;
+	}
+	.card-content {
+		width: 100%;
+	}
+	.card-content .card-img {
+		width: 100%;
+	}
+	.card-text p {
+		font-size: 0.85rem;
+	}
+	.curved-drop-shadow::before {
+		bottom: 12px;
+	}
+	.curved-drop-shadow::after {
+		bottom: 12px;
+	}
+}
+
 /* Media queries max-width 360*/
+
+@media screen and (max-width: 360) {
+	.curved-drop-shadow::before {
+		bottom: 10px;
+	}
+	.curved-drop-shadow::after {
+		bottom: 10px;
+	}
+}
